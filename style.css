@@ -1,0 +1,130 @@
+.navbar-light .navbar-brand{
+   color: white;
+   font-weight: 900;
+   letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+    
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.nav-link{
+    padding: .2rem 1rem;
+}
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link:hover{
+    color: grey;
+}
+body{
+    font-family: poppins;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    top: auto;
+    bottom: 10%;
+}
+.carousel-caption h5{
+    font-size: 4.375rem;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-weight: 900;
+}
+.carousel-caption p{
+    font-size: 18px;
+    margin: auto;
+    width: 60%;
+    line-height: 1.9;
+}
+
+hr.rounded {
+    width: 15%;
+    
+    border-radius: 3px;
+  }
+hr#line1{
+    border-top: 8px solid #FF5733;
+}
+hr#line2{
+    border-top: 8px solid #fff;
+}
+hr#line3{
+    border-radius: 3px;
+    border-top: 8px solid #FF5733;
+    width: 7%
+}
+
+  .carousel-caption a{
+      text-transform: uppercase;
+      background: #FF5733;
+      padding: 10px 30px;
+      display: inline-block;
+      color: #fff;
+      margin-top: 15px;
+      border-radius: 50px;
+  }
+
+  .carousel-caption #a2{
+      background: #fff;
+      color: black;
+  }
+
+
+  #features {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .features-box {
+    padding: 5%;
+  }
+  
+  .features-title {
+    font-size: 1.5rem;
+  }
+  
+  .icon {
+    color: #FF5733;
+    padding: 1rem;
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+
+  .collage{
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .contact{
+      text-align: center;
+  }
+
+  .form-group .btn{
+      width: 100%;
+      border-radius: 15px;
+      background-color: #FF5733;
+  }
